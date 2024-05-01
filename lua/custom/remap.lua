@@ -1,0 +1,5 @@
+vim.keymap.set({ 'n' }, '<leader>y', '"+y$', { desc = '[Y]ank to end of line' })
+vim.keymap.set({ 'v' }, '<leader>y', '"+y', { desc = '[Y]ank selected' })
+vim.keymap.set({ 'n' }, '<leader>x', '"+d$', { desc = 'Cut to end of line' })
+vim.keymap.set({ 'v' }, '<leader>x', '"+d', { desc = 'Cut selected' })
+vim.keymap.set({ 'i', 'x', 'n', 's' }, '<C-s>', '<cmd>w<cr><esc>', { desc = 'Save file' })

@@ -1,4 +1,3 @@
 return {
-	vim.keymap.set("n", "<leader>d", ":Ex")
+  vim.keymap.set('n', '<leader>e', '<cmd>Ex<CR>'),
 }
-

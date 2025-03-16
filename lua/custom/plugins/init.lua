@@ -2,4 +2,7 @@
 --  I promise not to create any merge conflicts in this directory :)
 --
 -- See the kickstart.nvim README for more information
-return {}
+return {
+  { 'akinsho/git-conflict.nvim', version = '*', config = true },
+  require('lspconfig').jdtls.setup { cmd = { 'jdtls' } },
+}

@@ -4,5 +4,7 @@
 -- See the kickstart.nvim README for more information
 return {
   { 'akinsho/git-conflict.nvim', version = '*', config = true },
+  { 'mhartington/formatter.nvim' },
+  { 'andweeb/presence.nvim' },
   require('lspconfig').jdtls.setup { cmd = { 'jdtls' } },
 }
